@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3bc6f79fc3252e713854bb4886b6ce49" kind="dir">
+    <compoundname>PrimeHolding.Tools/Converter</compoundname>
+    <innerfile refid="_converter_context_8cs">ConverterContext.cs</innerfile>
+    <innerfile refid="_gif_8cs">Gif.cs</innerfile>
+    <innerfile refid="_i_convert_strategy_8cs">IConvertStrategy.cs</innerfile>
+    <innerfile refid="_jpeg_8cs">Jpeg.cs</innerfile>
+    <innerfile refid="_png_8cs">Png.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/"/>
+  </compounddef>
+</doxygen>

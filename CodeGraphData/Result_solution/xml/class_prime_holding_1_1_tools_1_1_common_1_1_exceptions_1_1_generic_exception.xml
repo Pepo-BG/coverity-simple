@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions::GenericException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</derivedcompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</derivedcompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.FileNotWritableException</derivedcompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.ImageFormatException</derivedcompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.InvalidAspectRatioException</derivedcompoundref>
+    <derivedcompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.GenericException.GenericException</definition>
+        <argsstring>()</argsstring>
+        <name>GenericException</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.GenericException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" line="30" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.GenericException.GenericException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>GenericException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.GenericException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" line="43" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.GenericException.GenericException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>GenericException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.GenericException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The inner exception. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" line="57" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" bodystart="57" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>(Serializable) exception for signalling generic errors. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:System.Exception</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>PrimeHolding.Tools.Common.Exceptions.GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Exception</label>
+      </node>
+      <node id="46">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotWritableException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>PrimeHolding.Tools.Common.Exceptions.ImageFormatException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>PrimeHolding.Tools.Common.Exceptions.InvalidAspectRatioException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>PrimeHolding.Tools.Common.Exceptions.GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" line="22" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/GenericException.cs" bodystart="21" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::GenericException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::GenericException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::GenericException</scope><name>GenericException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

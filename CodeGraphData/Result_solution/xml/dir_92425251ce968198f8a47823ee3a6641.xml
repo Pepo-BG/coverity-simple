@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_92425251ce968198f8a47823ee3a6641" kind="dir">
+    <compoundname>ComplexityTests</compoundname>
+    <innerdir refid="dir_ab7eae271a602fb8ce8dd851bdd8996a">ComplexityTests/Properties</innerdir>
+    <innerfile refid="_cyclomatic_complexity_8cs">CyclomaticComplexity.cs</innerfile>
+    <innerfile refid="_depth_of_inheritance_8cs">DepthOfInheritance.cs</innerfile>
+    <innerfile refid="_n_path_complexity_8cs">NPathComplexity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/"/>
+  </compounddef>
+</doxygen>

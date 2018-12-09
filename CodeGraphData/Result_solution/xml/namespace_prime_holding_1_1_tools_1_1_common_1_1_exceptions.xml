@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_prime_holding_1_1_tools_1_1_common_1_1_exceptions" kind="namespace">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::FileNotWritableException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::GenericException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::ImageFormatException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::InvalidAspectRatioException</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" prot="public">PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

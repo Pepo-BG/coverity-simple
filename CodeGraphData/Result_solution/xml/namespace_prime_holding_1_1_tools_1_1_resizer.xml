@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_prime_holding_1_1_tools_1_1_resizer" kind="namespace">
+    <compoundname>PrimeHolding::Tools::Resizer</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" prot="public">PrimeHolding::Tools::Resizer::Crop</innerclass>
+    <innerclass refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" prot="public">PrimeHolding::Tools::Resizer::IResizeStrategy</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" prot="public">PrimeHolding::Tools::Resizer::KeepAspect</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context" prot="public">PrimeHolding::Tools::Resizer::ResizerContext</innerclass>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew" prot="public">PrimeHolding::Tools::Resizer::Skew</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

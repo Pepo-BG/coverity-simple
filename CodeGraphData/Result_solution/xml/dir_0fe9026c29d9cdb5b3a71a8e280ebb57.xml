@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0fe9026c29d9cdb5b3a71a8e280ebb57" kind="dir">
+    <compoundname>D:/Documents/University/coverity-sample-master</compoundname>
+    <innerdir refid="dir_ed19c785bafb91d7a8af9aa1372d941a">D:/Documents/University/coverity-sample-master/APIConsumer</innerdir>
+    <innerdir refid="dir_6a174d6cf5d1f1bf40317b866c2343a4">D:/Documents/University/coverity-sample-master/ComplexityTests</innerdir>
+    <innerdir refid="dir_da989474f7f1317cd0a88177d13491d7">D:/Documents/University/coverity-sample-master/PrimeHolding.Tools</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/"/>
+  </compounddef>
+</doxygen>

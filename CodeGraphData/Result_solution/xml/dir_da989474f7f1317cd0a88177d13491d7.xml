@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_da989474f7f1317cd0a88177d13491d7" kind="dir">
+    <compoundname>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools</compoundname>
+    <innerdir refid="dir_8b659f597ead83b334a7109f32f85506">D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common</innerdir>
+    <innerdir refid="dir_4425fd146f9c26ea71d530667e6a5c7d">D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter</innerdir>
+    <innerdir refid="dir_0f9f252a6e8b50fe74914d12172e4eaa">D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Properties</innerdir>
+    <innerdir refid="dir_8e8f835dbb702a479f68dc4f8b4b3eb8">D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer</innerdir>
+    <innerfile refid="_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_image_tools_8cs">ImageTools.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/"/>
+  </compounddef>
+</doxygen>

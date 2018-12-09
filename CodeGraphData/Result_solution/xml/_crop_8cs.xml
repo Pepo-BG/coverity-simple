@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_crop_8cs" kind="file">
+    <compoundname>Crop.cs</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" prot="public">PrimeHolding::Tools::Resizer::Crop</innerclass>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_resizer">PrimeHolding::Tools::Resizer</innernamespace>
+    <innernamespace refid="namespace_system_1_1_drawing_1_1_drawing2_d">System::Drawing::Drawing2D</innernamespace>
+    <innernamespace refid="namespace_system_1_1_drawing_1_1_imaging">System::Drawing::Imaging</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">﻿</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;copyright<sp/>file=&quot;Crop.cs&quot;<sp/>company=&quot;SBND<sp/>jsc&quot;&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2017<sp/>-<sp/>2018<sp/>SBND<sp/>jsc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;/copyright&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;author&gt;Dimiter<sp/>&quot;Arruor&quot;<sp/>Nikov&lt;/author&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;date&gt;08.01.2018<sp/>г.&lt;/date&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;summary&gt;Implements<sp/>the<sp/>crop<sp/>class&lt;/summary&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespace_prime_holding_1_1_tools_1_1_resizer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PrimeHolding.Tools.Resizer</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing.Drawing2D;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing.Imaging;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" kindref="compound">Crop</ref><sp/>:<sp/><ref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" kindref="compound">IResizeStrategy</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aa3423db76717fc1da048303d8b6d7c8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aa3423db76717fc1da048303d8b6d7c8a" kindref="member">startX</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1a8dc3f0016077381e34d9b4a8e7cbba5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1a8dc3f0016077381e34d9b4a8e7cbba5d" kindref="member">startY</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aede83a20441f4073b2a196b596c5e30f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aede83a20441f4073b2a196b596c5e30f" kindref="member">Crop</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.startX<sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.startY<sp/>=<sp/>y;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1af7f4e46dae4b082edf3e9a8939155ada" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1af7f4e46dae4b082edf3e9a8939155ada" kindref="member">ImageResize</ref>(Image<sp/>sourceImage,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>destinationFile,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destHeight)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bitmap<sp/>bmp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Bitmap(destWidth,<sp/>destHeight,<sp/>PixelFormat.Format24bppRgb);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bmp.SetResolution(80,<sp/>60);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Graphics<sp/>gfx<sp/>=<sp/>Graphics.FromImage(bmp);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gfx.SmoothingMode<sp/>=<sp/>SmoothingMode.AntiAlias;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gfx.InterpolationMode<sp/>=<sp/>InterpolationMode.HighQualityBicubic;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gfx.PixelOffsetMode<sp/>=<sp/>PixelOffsetMode.HighQuality;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gfx.DrawImage(sourceImage,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(0,<sp/>0,<sp/>destWidth,<sp/>destHeight),<sp/>this.startX,<sp/>this.startY,<sp/>destWidth,<sp/>destHeight,<sp/>GraphicsUnit.Pixel);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bmp.Save(destinationFile,<sp/>sourceImage.RawFormat);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceImage.Dispose();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bmp.Dispose();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gfx.Dispose();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs"/>
+  </compounddef>
+</doxygen>

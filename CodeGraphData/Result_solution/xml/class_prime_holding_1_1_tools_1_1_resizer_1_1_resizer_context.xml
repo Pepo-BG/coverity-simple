@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Resizer::ResizerContext</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a4f3a3521e15d08e24ca4b981b5031a94" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" kindref="compound">IResizeStrategy</ref></type>
+        <definition>IResizeStrategy PrimeHolding.Tools.Resizer.ResizerContext.resizer</definition>
+        <argsstring></argsstring>
+        <name>resizer</name>
+        <briefdescription>
+<para>The resizer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" line="19" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a1079d2a0515f0fb3688bd2adc7e4480a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Resizer.ResizerContext.ResizerContext</definition>
+        <argsstring>(IResizeStrategy resizer)</argsstring>
+        <name>ResizerContext</name>
+        <param>
+          <type><ref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" kindref="compound">IResizeStrategy</ref></type>
+          <declname>resizer</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context" kindref="compound">PrimeHolding.Tools.Resizer.ResizerContext</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resizer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resizer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" line="29" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a29cf68b5c1002d9531a7abc4326b77fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrimeHolding.Tools.Resizer.ResizerContext.ResizeImage</definition>
+        <argsstring>(Image sourceFile, String destinationFile, int destWidth, int destHeight)</argsstring>
+        <name>ResizeImage</name>
+        <param>
+          <type>Image</type>
+          <declname>sourceFile</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>destinationFile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destHeight</declname>
+        </param>
+        <briefdescription>
+<para>Resize image. </para>        </briefdescription>
+        <detaileddescription>
+<para>Arruor, 08.01.2018 г. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the destination. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destheight. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" line="45" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A resizer context. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="120">
+        <label>PrimeHolding.Tools.Resizer.ResizerContext</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context"/>
+        <childnode refid="121" relation="usage">
+          <edgelabel>resizer</edgelabel>
+        </childnode>
+      </node>
+      <node id="121">
+        <label>PrimeHolding.Tools.Resizer.IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" line="17" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/ResizerContext.cs" bodystart="16" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a29cf68b5c1002d9531a7abc4326b77fd" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::ResizerContext</scope><name>ResizeImage</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a4f3a3521e15d08e24ca4b981b5031a94" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::ResizerContext</scope><name>resizer</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a1079d2a0515f0fb3688bd2adc7e4480a" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::ResizerContext</scope><name>ResizerContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Resizer::KeepAspect</compoundname>
+    <basecompoundref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" prot="public" virt="non-virtual">PrimeHolding.Tools.Resizer.IResizeStrategy</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect_1a45d0f7a14bcc44ee8785dadc77aed863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrimeHolding.Tools.Resizer.KeepAspect.ImageResize</definition>
+        <argsstring>(Image sourceImage, String destinationFile, int destWidth, int destHeight)</argsstring>
+        <name>ImageResize</name>
+        <reimplements refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy_1ae06d3d0fc072db6897b9fe1647f4d9e9">ImageResize</reimplements>
+        <param>
+          <type>Image</type>
+          <declname>sourceImage</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>destinationFile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destHeight</declname>
+        </param>
+        <briefdescription>
+<para>Image resize. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>InvalidAspectRatioException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when an Invalid Aspect Ratio error condition occurs. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the destination. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the destination. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="see"><para>M:PrimeHolding.Tools.Resizer.KeepAspect.ImageResize(Image,String,int,int)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/keepAspect.cs" line="33" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/keepAspect.cs" bodystart="33" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A keep aspect. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="107">
+        <label>PrimeHolding.Tools.Resizer.KeepAspect</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>PrimeHolding.Tools.Resizer.KeepAspect</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/keepAspect.cs" line="18" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/keepAspect.cs" bodystart="17" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect_1a45d0f7a14bcc44ee8785dadc77aed863" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::KeepAspect</scope><name>ImageResize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

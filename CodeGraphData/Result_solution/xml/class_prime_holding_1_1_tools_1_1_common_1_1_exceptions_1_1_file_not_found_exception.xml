@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</compoundname>
+    <basecompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.GenericException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a0dc147492c527fff4d987e9e82973e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException.FileNotFoundException</definition>
+        <argsstring>()</argsstring>
+        <name>FileNotFoundException</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" line="33" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a34f68c98138858535d4a73e7c82f24bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException.FileNotFoundException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>FileNotFoundException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a55622ca683e00b3ef526f2807e035bde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException.FileNotFoundException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>FileNotFoundException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The inner exception. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" line="60" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" bodystart="60" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>(Serializable) exception for signalling file not found errors. This class cannot be inherited. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:PrimeHolding.Tools.Common.Exceptions.GenericException</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Exception</label>
+      </node>
+      <node id="24">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Exception</label>
+      </node>
+      <node id="27">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotFoundException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" line="25" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotFoundException.cs" bodystart="24" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a0dc147492c527fff4d987e9e82973e51" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>FileNotFoundException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a34f68c98138858535d4a73e7c82f24bd" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>FileNotFoundException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a55622ca683e00b3ef526f2807e035bde" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>FileNotFoundException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</scope><name>GenericException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

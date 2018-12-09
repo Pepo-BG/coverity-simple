@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_converter_context_8cs" kind="file">
+    <compoundname>ConverterContext.cs</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context" prot="public">PrimeHolding::Tools::Converter::ConverterContext</innerclass>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_converter">PrimeHolding::Tools::Converter</innernamespace>
+    <innernamespace refid="namespace_system_1_1_drawing">System::Drawing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>&lt;copyright<sp/>file=&quot;ConverterContext.cs&quot;<sp/>company=&quot;SBND<sp/>jsc&quot;&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2017<sp/>-<sp/>2018<sp/>SBND<sp/>jsc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;/copyright&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;author&gt;Dimiter<sp/>&quot;Arruor&quot;<sp/>Nikov&lt;/author&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;date&gt;02.01.2018<sp/>г.&lt;/date&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;summary&gt;Implements<sp/>the<sp/>converter<sp/>context<sp/>class&lt;/summary&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespace_prime_holding_1_1_tools_1_1_converter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PrimeHolding.Tools.Converter</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context" kindref="compound">ConverterContext</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1ac9635b3a155dad666d6beafbb2ca8f26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy" kindref="compound">IConvertStrategy</ref><sp/><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1ac9635b3a155dad666d6beafbb2ca8f26" kindref="member">converter</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a0febe75c3c75a2a144e84e5779483966" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a0febe75c3c75a2a144e84e5779483966" kindref="member">ConverterContext</ref>(<ref refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy" kindref="compound">IConvertStrategy</ref><sp/>converter)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.converter<sp/>=<sp/>converter;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a792626fccd8da8344244502df4580743" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a792626fccd8da8344244502df4580743" kindref="member">ConvertImage</ref>(Image<sp/>sourceImage,<sp/>String<sp/>destinationFile)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.converter.ImageConvert(sourceImage,<sp/>destinationFile);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/ConverterContext.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_71c2d4bb11d08f8a0d2ef93b60b8f6e1" kind="dir">
+    <compoundname>PrimeHolding.Tools/Resizer</compoundname>
+    <innerfile refid="_crop_8cs">Crop.cs</innerfile>
+    <innerfile refid="_i_resize_strategy_8cs">IResizeStrategy.cs</innerfile>
+    <innerfile refid="keep_aspect_8cs">keepAspect.cs</innerfile>
+    <innerfile refid="_resizer_context_8cs">ResizerContext.cs</innerfile>
+    <innerfile refid="_skew_8cs">Skew.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/"/>
+  </compounddef>
+</doxygen>

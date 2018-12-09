@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</compoundname>
+    <basecompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.GenericException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a29a075f236e01f6a30475cb2cf51cb78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException.InvalidParameterException</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidParameterException</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" line="33" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1afe7ef94cf5efc3877af18983bdda6a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException.InvalidParameterException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>InvalidParameterException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a43fe018c010748fbc9be8b6a9733e666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException.InvalidParameterException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>InvalidParameterException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The inner exception. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" line="60" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" bodystart="60" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>(Serializable) exception for signalling invalid parameter errors. This class cannot be inherited. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:System.Exception</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="95">
+        <label>PrimeHolding.Tools.Common.Exceptions.InvalidParameterException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" line="25" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/InvalidParameterException.cs" bodystart="24" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a29a075f236e01f6a30475cb2cf51cb78" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>InvalidParameterException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1afe7ef94cf5efc3877af18983bdda6a11" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>InvalidParameterException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a43fe018c010748fbc9be8b6a9733e666" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</scope><name>InvalidParameterException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

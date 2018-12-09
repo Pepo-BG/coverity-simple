@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_examples_1_1_n_path_complexity" kind="class" prot="public">
+    <compoundname>Examples::NPathComplexity</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_examples_1_1_n_path_complexity_1a5458b223eebc62ee54f0d81d54e5e08d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Examples.NPathComplexity.Add</definition>
+        <argsstring>(double num1, double num2)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>double</type>
+          <declname>num1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>num2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" line="11" column="1" bodyfile="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" bodystart="11" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_n_path_complexity_1a372fb8d8e03941dfdee74c650bdf1a44" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Examples.NPathComplexity.CheckNumber</definition>
+        <argsstring>(double num)</argsstring>
+        <name>CheckNumber</name>
+        <param>
+          <type>double</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" line="26" column="1" bodyfile="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" bodystart="26" bodyend="34"/>
+        <referencedby refid="class_examples_1_1_n_path_complexity_1ab0af332f550030933b1a06416178a2b4" compoundref="_n_path_complexity_8cs" startline="36" endline="39">Examples.NPathComplexity.AddOptimized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_examples_1_1_n_path_complexity_1ab0af332f550030933b1a06416178a2b4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Examples.NPathComplexity.AddOptimized</definition>
+        <argsstring>(double num1, double num2)</argsstring>
+        <name>AddOptimized</name>
+        <param>
+          <type>double</type>
+          <declname>num1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>num2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" line="36" column="1" bodyfile="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_examples_1_1_n_path_complexity_1a372fb8d8e03941dfdee74c650bdf1a44" compoundref="_n_path_complexity_8cs" startline="26" endline="34">Examples.NPathComplexity.CheckNumber</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" line="10" column="1" bodyfile="D:/Documents/University/coverity-sample-master/ComplexityTests/NPathComplexity.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_examples_1_1_n_path_complexity_1a5458b223eebc62ee54f0d81d54e5e08d" prot="private" virt="non-virtual"><scope>Examples::NPathComplexity</scope><name>Add</name></member>
+      <member refid="class_examples_1_1_n_path_complexity_1ab0af332f550030933b1a06416178a2b4" prot="private" virt="non-virtual"><scope>Examples::NPathComplexity</scope><name>AddOptimized</name></member>
+      <member refid="class_examples_1_1_n_path_complexity_1a372fb8d8e03941dfdee74c650bdf1a44" prot="private" virt="non-virtual"><scope>Examples::NPathComplexity</scope><name>CheckNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

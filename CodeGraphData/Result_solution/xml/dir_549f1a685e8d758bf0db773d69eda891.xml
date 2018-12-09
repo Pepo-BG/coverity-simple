@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_549f1a685e8d758bf0db773d69eda891" kind="dir">
+    <compoundname>PrimeHolding.Tools/Common</compoundname>
+    <innerdir refid="dir_ca0d674b1b71694d317457b9342838a8">PrimeHolding.Tools/Common/Exceptions</innerdir>
+    <innerdir refid="dir_7c7411df667229e1648320013dff8541">PrimeHolding.Tools/Common/Permissions</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/"/>
+  </compounddef>
+</doxygen>

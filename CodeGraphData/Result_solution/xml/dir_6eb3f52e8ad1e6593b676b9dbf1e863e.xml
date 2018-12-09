@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6eb3f52e8ad1e6593b676b9dbf1e863e" kind="dir">
+    <compoundname>PrimeHolding.Tools</compoundname>
+    <innerdir refid="dir_549f1a685e8d758bf0db773d69eda891">PrimeHolding.Tools/Common</innerdir>
+    <innerdir refid="dir_3bc6f79fc3252e713854bb4886b6ce49">PrimeHolding.Tools/Converter</innerdir>
+    <innerdir refid="dir_d2b7f63008673cbd7d8689ee5efc10de">PrimeHolding.Tools/Properties</innerdir>
+    <innerdir refid="dir_71c2d4bb11d08f8a0d2ef93b60b8f6e1">PrimeHolding.Tools/Resizer</innerdir>
+    <innerfile refid="_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_image_tools_8cs">ImageTools.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/"/>
+  </compounddef>
+</doxygen>

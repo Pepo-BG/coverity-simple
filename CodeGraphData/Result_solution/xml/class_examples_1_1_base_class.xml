@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_examples_1_1_base_class" kind="class" prot="public">
+    <compoundname>Examples::BaseClass</compoundname>
+    <basecompoundref refid="interface_examples_1_1_i_base" prot="public" virt="non-virtual">Examples.IBase</basecompoundref>
+    <derivedcompoundref refid="class_examples_1_1_child_class" prot="public" virt="non-virtual">Examples.ChildClass</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Examples.GrandChildClass</label>
+        <link refid="class_examples_1_1_grand_child_class"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>Examples.BaseClass</label>
+        <link refid="class_examples_1_1_base_class"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IBase</label>
+        <link refid="interface_examples_1_1_i_base"/>
+      </node>
+      <node id="2">
+        <label>Examples.ChildClass</label>
+        <link refid="class_examples_1_1_child_class"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Examples.BaseClass</label>
+        <link refid="class_examples_1_1_base_class"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IBase</label>
+        <link refid="interface_examples_1_1_i_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/ComplexityTests/DepthOfInheritance.cs" line="15" column="1" bodyfile="D:/Documents/University/coverity-sample-master/ComplexityTests/DepthOfInheritance.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

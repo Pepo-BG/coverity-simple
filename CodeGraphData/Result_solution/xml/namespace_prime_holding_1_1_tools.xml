@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_prime_holding_1_1_tools" kind="namespace">
+    <compoundname>PrimeHolding::Tools</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_image_tools" prot="public">PrimeHolding::Tools::ImageTools</innerclass>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_common">PrimeHolding::Tools::Common</innernamespace>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_converter">PrimeHolding::Tools::Converter</innernamespace>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_resizer">PrimeHolding::Tools::Resizer</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_prime_holding_1_1_tools_1a7487f9a7c07ee0ac6fd51db9d28a7024" prot="public" static="no">
+        <type>System.IO</type>
+        <definition>using PrimeHolding::Tools.IO = typedef System.IO</definition>
+        <argsstring></argsstring>
+        <name>IO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/ImageTools.cs" line="14" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/ImageTools.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

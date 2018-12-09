@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_converter_1_1_png" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Converter::Png</compoundname>
+    <basecompoundref refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy" prot="public" virt="non-virtual">PrimeHolding.Tools.Converter.IConvertStrategy</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_converter_1_1_png_1abb68b5f06aa1264e44ddc41eaf08bf9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrimeHolding.Tools.Converter.Png.ImageConvert</definition>
+        <argsstring>(Image sourceImage, String destinationFile)</argsstring>
+        <name>ImageConvert</name>
+        <reimplements refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy_1aedbc0ad6dccf5497ad53f3a8508e5c5b">ImageConvert</reimplements>
+        <param>
+          <type>Image</type>
+          <declname>sourceImage</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>destinationFile</declname>
+        </param>
+        <briefdescription>
+<para>Image convert. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination file. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="see"><para>M:PrimeHolding.Tools.Converter.IConvertStrategy.ImageConvert(Image,String)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/Png.cs" line="23" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/Png.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A png. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:PrimeHolding.Tools.Converter.IConvertStrategy</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="113">
+        <label>PrimeHolding.Tools.Converter.Png</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>IConvertStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="115">
+        <label>PrimeHolding.Tools.Converter.Png</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>IConvertStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/Png.cs" line="13" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/Png.cs" bodystart="12" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png_1abb68b5f06aa1264e44ddc41eaf08bf9b" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Converter::Png</scope><name>ImageConvert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

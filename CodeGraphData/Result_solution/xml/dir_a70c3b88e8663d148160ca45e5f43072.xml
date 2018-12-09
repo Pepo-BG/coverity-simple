@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a70c3b88e8663d148160ca45e5f43072" kind="dir">
+    <compoundname>D:/Documents/University/coverity-sample-master/APIConsumer/Properties</compoundname>
+    <innerfile refid="_a_p_i_consumer_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/APIConsumer/Properties/"/>
+  </compounddef>
+</doxygen>

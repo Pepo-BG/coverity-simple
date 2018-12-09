@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_examples_1_1_base_class" kind="class"><name>Examples::BaseClass</name>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions" kind="class"><name>PrimeHolding::Tools::Common::Permissions::CheckPermissions</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6ef4d326aa6718f76904dade6502e1ce" kind="variable"><name>path</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a833e8c7a676ad220cb3c371b25c91d3c" kind="variable"><name>principal</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaf0c412ae376d6f28c77616b1536a933" kind="variable"><name>denyAppendData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a933ebe3bb5fbf94cf86b740e5bec7938" kind="variable"><name>denyChangePermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a23b260b5e8eeb9eadddd5045883ab95f" kind="variable"><name>denyCreateDirectories</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a31c70215b2829bdb7567e82f06a8bc37" kind="variable"><name>denyCreateFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5853be9e4f5b4bdd815a944d84825324" kind="variable"><name>denyDelete</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab1485aa1c7bfa555397f82f842257779" kind="variable"><name>denyDeleteSubdirectoriesAndFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3a730e372b0f7337185b41087ddd553f" kind="variable"><name>denyExecuteFile</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a30d1507c3a11ae05a763df52882fdd82" kind="variable"><name>denyFullControl</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7fce8f248023e452a5b025876c6dbfa1" kind="variable"><name>denyListDirectory</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3fcd2ae92b6cf557d8a99776629fab9e" kind="variable"><name>denyModify</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a98a9435379a3d4bdfa84853ff25076aa" kind="variable"><name>denyRead</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a244ac9efe98f30920c3a1ee9217e43cc" kind="variable"><name>denyReadAndExecute</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3be1495cc25e0e4379a4abce361a8ed8" kind="variable"><name>denyReadAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4999e1c0310873b7e406b2ef84d1794c" kind="variable"><name>denyReadData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9bfd0100f5072732391f7bacd50d9826" kind="variable"><name>denyReadExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a448598d9026b0a55cfdf489e9e0149f5" kind="variable"><name>denyReadPermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab6c2c325ba2c56d15de152dceb9f8e4e" kind="variable"><name>denySynchronize</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab541cdc35ff4ab4801916a030cd1030" kind="variable"><name>denyTakeOwnership</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9d80d7c6050db3a4c3adcc3f04019c14" kind="variable"><name>denyTraverse</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4fb5f0bc15801ffe08d42c66fadf4aff" kind="variable"><name>denyWrite</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad1d65f4549e4dabf0c1c012f4f9c2579" kind="variable"><name>denyWriteAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a109ea9bed7c9baecf3e8f358e60f7aa3" kind="variable"><name>denyWriteData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a13c2cb1f00fe03ac6f00cf705558225d" kind="variable"><name>denyWriteExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1adbaf2d085a6cb5bfe93dc8bf54b4bced" kind="variable"><name>allowAppendData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3b120189d7fdce22c3b29ed94afbadd0" kind="variable"><name>allowChangePermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abfdcf734ad67ccbcc7c48fb2785aa0ff" kind="variable"><name>allowCreateDirectories</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0e0444d007420d3b59d29fefb310f7b9" kind="variable"><name>allowCreateFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7e44797c73731f48be3deef5bbe5c08a" kind="variable"><name>allowDelete</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a307d113fbaa77982d9ae6216b8066039" kind="variable"><name>allowDeleteSubdirectoriesAndFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a87306800a3fdf78d439dbb2048635f5a" kind="variable"><name>allowExecuteFile</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab2bc2522acc3c5bc9dd1671c91848f75" kind="variable"><name>allowFullControl</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abbbcc8198d94cc746bec362f956707c5" kind="variable"><name>allowListDirectory</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a249944a11eb7e01b9c7979c94ae2778c" kind="variable"><name>allowModify</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0741d5922d0954267a6edb56872e1c73" kind="variable"><name>allowRead</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af710cd49f9db4a98c4024dd550db399e" kind="variable"><name>allowReadAndExecute</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a538962649e4b1b3e48a5ccd787194a3a" kind="variable"><name>allowReadAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0fe2ebf6ab12d5d47897eb7393d41eeb" kind="variable"><name>allowReadData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7f031afb1f1f05a117cec3b3d0e62c00" kind="variable"><name>allowReadExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7960eae0282043df4e09d70e49eae65d" kind="variable"><name>allowReadPermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1549c5ed153ce6bdff18b37e036cd5e4" kind="variable"><name>allowSynchronize</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ae237127e36c6ac4cdb451b32ff4d9a48" kind="variable"><name>allowTakeOwnership</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a03b20761a01257c240b81c1a553c3039" kind="variable"><name>allowTraverse</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a837ef1f58c6a21bec44de1ae45264a97" kind="variable"><name>allowWrite</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a775a818e49fe5ad53f8ef671d415afdf" kind="variable"><name>allowWriteAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a938a62c1f6883668d3e2037d6eca1d8d" kind="variable"><name>allowWriteData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a48a53c3ebf1a5a0c5caad5e08fe9b5eb" kind="variable"><name>allowWriteExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5e9f9600f42c5c44adc5bdd293b2c08b" kind="function"><name>CanAppendData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4cd10ffc3d43e7e2bf7eb3c3962a8021" kind="function"><name>CanChangePermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5bb52e03c7772cc83da9d9648f356538" kind="function"><name>CanCreateDirectories</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af22d451fcd637c27e5bb7d6440c73c17" kind="function"><name>CanCreateFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6d77406ed54b89a95fbeae1b16e7f3b4" kind="function"><name>CanDelete</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa83aeadcd520ac23e0b9583a05e09565" kind="function"><name>CanDeleteSubdirectoriesAndFiles</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a06abadee2680a6236f00dc4147495ea8" kind="function"><name>CanExecuteFile</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1fd017c05c1c333f684fb0b803138e06" kind="function"><name>CanFullControl</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a09045e10ce5ae70e3889473bddfa116f" kind="function"><name>CanListDirectory</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7c9870fd8333dffa614ec32cc05808a6" kind="function"><name>CanModify</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a27f28b211c55c97538e49fc13cf1ea8f" kind="function"><name>CanRead</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a83bc8783efd7cd36243339eea4a6bb0a" kind="function"><name>CanReadAndExecute</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab483a4d7df123a8e05569a2caba8fb39" kind="function"><name>CanReadAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a45c4f0a49ec6ecafa3723a352397c8da" kind="function"><name>CanReadData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad98dc07174a350c6fedcca135f2b0be4" kind="function"><name>CanReadExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab77341b40d7060a34fcae406205ccd8" kind="function"><name>CanReadPermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a654fe67d0f462ec1f8a9329a6da7ecc2" kind="function"><name>CanSynchronize</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa30d77871b5506a77e2f959a459aa24e" kind="function"><name>CanTakeOwnership</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0f99629ff83d8e272764005235054306" kind="function"><name>CanTraverse</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a02e42f30b21a9fd3b44eb286416a0e40" kind="function"><name>CanWrite</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a2486ce73767b92088922c12b863b8e16" kind="function"><name>CanWriteAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab02be236135adf2c59de49b72727fa79" kind="function"><name>CanWriteData</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a63d2367e2561f1505b89b0aba499a2fd" kind="function"><name>CanWriteExtendedAttributes</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afa4ad01c09b9f57d4f272c36114bf0d5" kind="function"><name>GetWindowsIdentity</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6fa3213c24b3073a9632024e7f59f3a5" kind="function"><name>GetPath</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaa5483873902ee67182e1b30cec32634" kind="function"><name>CheckPermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afb1b5c5c161a40031c41174b8a993b27" kind="function"><name>CheckPermissions</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a97dad686a482710b9c66a8da4c7daf3c" kind="function"><name>Contains</name></member>
+  </compound>
+  <compound refid="class_examples_1_1_child_class" kind="class"><name>Examples::ChildClass</name>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context" kind="class"><name>PrimeHolding::Tools::Converter::ConverterContext</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1ac9635b3a155dad666d6beafbb2ca8f26" kind="variable"><name>converter</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a0febe75c3c75a2a144e84e5779483966" kind="function"><name>ConverterContext</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_converter_context_1a792626fccd8da8344244502df4580743" kind="function"><name>ConvertImage</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" kind="class"><name>PrimeHolding::Tools::Resizer::Crop</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aa3423db76717fc1da048303d8b6d7c8a" kind="variable"><name>startX</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1a8dc3f0016077381e34d9b4a8e7cbba5d" kind="variable"><name>startY</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aede83a20441f4073b2a196b596c5e30f" kind="function"><name>Crop</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1af7f4e46dae4b082edf3e9a8939155ada" kind="function"><name>ImageResize</name></member>
+  </compound>
+  <compound refid="class_examples_1_1_cyclomatic_complexity" kind="class"><name>Examples::CyclomaticComplexity</name>
+    <member refid="class_examples_1_1_cyclomatic_complexity_1ac5b5fb1e0d21c64674fc5e665ff7871c" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::FileNotFoundException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a0dc147492c527fff4d987e9e82973e51" kind="function"><name>FileNotFoundException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a34f68c98138858535d4a73e7c82f24bd" kind="function"><name>FileNotFoundException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_found_exception_1a55622ca683e00b3ef526f2807e035bde" kind="function"><name>FileNotFoundException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a50b870a86cc9f3b53f287f6c183282ae" kind="function"><name>FileNotReadableException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a85a4b31016edf6bdf99381ed1cde6e1a" kind="function"><name>FileNotReadableException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a2bf73e0d634e1a23cdf499a317109613" kind="function"><name>FileNotReadableException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::FileNotWritableException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception_1a5d09ca19bfacaf0f1602d9550bfcdf9d" kind="function"><name>FileNotWritableException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception_1a4131dae93d2953fd1b27f86f5d952f86" kind="function"><name>FileNotWritableException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_writable_exception_1acd15fa4f23ea02f967ad68c622dab878" kind="function"><name>FileNotWritableException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::GenericException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" kind="function"><name>GenericException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" kind="function"><name>GenericException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" kind="function"><name>GenericException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_converter_1_1_gif" kind="class"><name>PrimeHolding::Tools::Converter::Gif</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_gif_1acedad528854529e6efc9dbac2de2caba" kind="function"><name>ImageConvert</name></member>
+  </compound>
+  <compound refid="class_examples_1_1_grand_child_class" kind="class"><name>Examples::GrandChildClass</name>
+  </compound>
+  <compound refid="interface_examples_1_1_i_base" kind="interface"><name>Examples::IBase</name>
+  </compound>
+  <compound refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy" kind="interface"><name>PrimeHolding::Tools::Converter::IConvertStrategy</name>
+    <member refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy_1aedbc0ad6dccf5497ad53f3a8508e5c5b" kind="function"><name>ImageConvert</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1af561de05c4ae6186253ae4430989ce52" kind="function"><name>ImageFormatException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a111380a0b760078b1001caffdbac8181" kind="function"><name>ImageFormatException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a3609733a98024e1459d4db3b6904542a" kind="function"><name>ImageFormatException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_image_tools" kind="class"><name>PrimeHolding::Tools::ImageTools</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1a226308eb3b92230d2767fc7f624523aa" kind="variable"><name>converter</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1a06d4f64df96610695ec4a0387a5db243" kind="variable"><name>resizer</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1a297d0fd64585a97b7de82f19d728b8ed" kind="function"><name>CheckSourceFile</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1ab5772cf0333fd374857a95e52a395748" kind="function"><name>CheckDestinationFile</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1a81e2910f5d305f4779ed5496998cbb87" kind="function"><name>CheckWidth</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1aac1016fc531dd2439a530b3cc35d4b93" kind="function"><name>CheckHeight</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1ab797b0a05ac6bc9508dab2ab73f9d071" kind="function"><name>Convert</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_image_tools_1a7a1410044128d7552ca8b33001d9d134" kind="function"><name>Resize</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::InvalidAspectRatioException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception_1aa88a044b92f2f824a20b3d2f19260667" kind="function"><name>InvalidAspectRatioException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception_1a855e3647d3eb9d344329781c1a68a72d" kind="function"><name>InvalidAspectRatioException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception_1aa781ec844208ff47f200dc74bbd68c07" kind="function"><name>InvalidAspectRatioException</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception" kind="class"><name>PrimeHolding::Tools::Common::Exceptions::InvalidParameterException</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a29a075f236e01f6a30475cb2cf51cb78" kind="function"><name>InvalidParameterException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1afe7ef94cf5efc3877af18983bdda6a11" kind="function"><name>InvalidParameterException</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_parameter_exception_1a43fe018c010748fbc9be8b6a9733e666" kind="function"><name>InvalidParameterException</name></member>
+  </compound>
+  <compound refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" kind="interface"><name>PrimeHolding::Tools::Resizer::IResizeStrategy</name>
+    <member refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy_1ae06d3d0fc072db6897b9fe1647f4d9e9" kind="function"><name>ImageResize</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_converter_1_1_jpeg" kind="class"><name>PrimeHolding::Tools::Converter::Jpeg</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_jpeg_1a09115b03eb3279cdd6fdbed64e2c5a19" kind="function"><name>ImageConvert</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" kind="class"><name>PrimeHolding::Tools::Resizer::KeepAspect</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect_1a45d0f7a14bcc44ee8785dadc77aed863" kind="function"><name>ImageResize</name></member>
+  </compound>
+  <compound refid="class_examples_1_1_n_path_complexity" kind="class"><name>Examples::NPathComplexity</name>
+    <member refid="class_examples_1_1_n_path_complexity_1a5458b223eebc62ee54f0d81d54e5e08d" kind="function"><name>Add</name></member>
+    <member refid="class_examples_1_1_n_path_complexity_1a372fb8d8e03941dfdee74c650bdf1a44" kind="function"><name>CheckNumber</name></member>
+    <member refid="class_examples_1_1_n_path_complexity_1ab0af332f550030933b1a06416178a2b4" kind="function"><name>AddOptimized</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png" kind="class"><name>PrimeHolding::Tools::Converter::Png</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png_1abb68b5f06aa1264e44ddc41eaf08bf9b" kind="function"><name>ImageConvert</name></member>
+  </compound>
+  <compound refid="class_a_p_i_consumer_1_1_program" kind="class"><name>APIConsumer::Program</name>
+    <member refid="class_a_p_i_consumer_1_1_program_1a345c96ee451320272601177caf3713be" kind="function"><name>Usage</name></member>
+    <member refid="class_a_p_i_consumer_1_1_program_1a986ce170c3e330b4e2b5c3e357fb5081" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context" kind="class"><name>PrimeHolding::Tools::Resizer::ResizerContext</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a4f3a3521e15d08e24ca4b981b5031a94" kind="variable"><name>resizer</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a1079d2a0515f0fb3688bd2adc7e4480a" kind="function"><name>ResizerContext</name></member>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_resizer_context_1a29cf68b5c1002d9531a7abc4326b77fd" kind="function"><name>ResizeImage</name></member>
+  </compound>
+  <compound refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew" kind="class"><name>PrimeHolding::Tools::Resizer::Skew</name>
+    <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew_1ad21abcd5dcbd4e3b325a46d8ea563e67" kind="function"><name>ImageResize</name></member>
+  </compound>
+  <compound refid="namespace_a_p_i_consumer" kind="namespace"><name>APIConsumer</name>
+  </compound>
+  <compound refid="namespace_examples" kind="namespace"><name>Examples</name>
+  </compound>
+  <compound refid="namespace_i_o" kind="namespace"><name>IO</name>
+  </compound>
+  <compound refid="namespace_prime_holding" kind="namespace"><name>PrimeHolding</name>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools" kind="namespace"><name>PrimeHolding::Tools</name>
+    <member refid="namespace_prime_holding_1_1_tools_1a7487f9a7c07ee0ac6fd51db9d28a7024" kind="typedef"><name>IO</name></member>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools_1_1_common" kind="namespace"><name>PrimeHolding::Tools::Common</name>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools_1_1_common_1_1_exceptions" kind="namespace"><name>PrimeHolding::Tools::Common::Exceptions</name>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools_1_1_common_1_1_permissions" kind="namespace"><name>PrimeHolding::Tools::Common::Permissions</name>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools_1_1_converter" kind="namespace"><name>PrimeHolding::Tools::Converter</name>
+  </compound>
+  <compound refid="namespace_prime_holding_1_1_tools_1_1_resizer" kind="namespace"><name>PrimeHolding::Tools::Resizer</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing_1_1_drawing2_d" kind="namespace"><name>System::Drawing::Drawing2D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing_1_1_imaging" kind="namespace"><name>System::Drawing::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_access_control" kind="namespace"><name>System::Security::AccessControl</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_principal" kind="namespace"><name>System::Security::Principal</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_cyclomatic_complexity_8cs" kind="file"><name>CyclomaticComplexity.cs</name>
+  </compound>
+  <compound refid="_depth_of_inheritance_8cs" kind="file"><name>DepthOfInheritance.cs</name>
+  </compound>
+  <compound refid="_n_path_complexity_8cs" kind="file"><name>NPathComplexity.cs</name>
+  </compound>
+  <compound refid="_complexity_tests_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_prime_holding_8_tools_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_a_p_i_consumer_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_file_not_found_exception_8cs" kind="file"><name>FileNotFoundException.cs</name>
+  </compound>
+  <compound refid="_file_not_readable_exception_8cs" kind="file"><name>FileNotReadableException.cs</name>
+  </compound>
+  <compound refid="_file_not_writable_exception_8cs" kind="file"><name>FileNotWritableException.cs</name>
+  </compound>
+  <compound refid="_generic_exception_8cs" kind="file"><name>GenericException.cs</name>
+  </compound>
+  <compound refid="_image_format_exception_8cs" kind="file"><name>ImageFormatException.cs</name>
+  </compound>
+  <compound refid="_invalid_aspect_ratio_exception_8cs" kind="file"><name>InvalidAspectRatioException.cs</name>
+  </compound>
+  <compound refid="_invalid_parameter_exception_8cs" kind="file"><name>InvalidParameterException.cs</name>
+  </compound>
+  <compound refid="_check_permissions_8cs" kind="file"><name>CheckPermissions.cs</name>
+  </compound>
+  <compound refid="_converter_context_8cs" kind="file"><name>ConverterContext.cs</name>
+  </compound>
+  <compound refid="_gif_8cs" kind="file"><name>Gif.cs</name>
+  </compound>
+  <compound refid="_i_convert_strategy_8cs" kind="file"><name>IConvertStrategy.cs</name>
+  </compound>
+  <compound refid="_jpeg_8cs" kind="file"><name>Jpeg.cs</name>
+  </compound>
+  <compound refid="_png_8cs" kind="file"><name>Png.cs</name>
+  </compound>
+  <compound refid="_global_suppressions_8cs" kind="file"><name>GlobalSuppressions.cs</name>
+  </compound>
+  <compound refid="_image_tools_8cs" kind="file"><name>ImageTools.cs</name>
+  </compound>
+  <compound refid="_crop_8cs" kind="file"><name>Crop.cs</name>
+  </compound>
+  <compound refid="_i_resize_strategy_8cs" kind="file"><name>IResizeStrategy.cs</name>
+  </compound>
+  <compound refid="keep_aspect_8cs" kind="file"><name>keepAspect.cs</name>
+  </compound>
+  <compound refid="_resizer_context_8cs" kind="file"><name>ResizerContext.cs</name>
+  </compound>
+  <compound refid="_skew_8cs" kind="file"><name>Skew.cs</name>
+  </compound>
+  <compound refid="dir_ed19c785bafb91d7a8af9aa1372d941a" kind="dir"><name>D:/Documents/University/coverity-sample-master/APIConsumer</name>
+  </compound>
+  <compound refid="dir_8b659f597ead83b334a7109f32f85506" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common</name>
+  </compound>
+  <compound refid="dir_6a174d6cf5d1f1bf40317b866c2343a4" kind="dir"><name>D:/Documents/University/coverity-sample-master/ComplexityTests</name>
+  </compound>
+  <compound refid="dir_4425fd146f9c26ea71d530667e6a5c7d" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter</name>
+  </compound>
+  <compound refid="dir_0fe9026c29d9cdb5b3a71a8e280ebb57" kind="dir"><name>D:/Documents/University/coverity-sample-master</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_63a46bc882553fb0fda9819bea5fa400" kind="dir"><name>D:/Documents</name>
+  </compound>
+  <compound refid="dir_798c0cda00833d0c4627d7e1a7acc0e7" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions</name>
+  </compound>
+  <compound refid="dir_a8fd751c46016e362b7b8bce6d971d28" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions</name>
+  </compound>
+  <compound refid="dir_da989474f7f1317cd0a88177d13491d7" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools</name>
+  </compound>
+  <compound refid="dir_a70c3b88e8663d148160ca45e5f43072" kind="dir"><name>D:/Documents/University/coverity-sample-master/APIConsumer/Properties</name>
+  </compound>
+  <compound refid="dir_0f9f252a6e8b50fe74914d12172e4eaa" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Properties</name>
+  </compound>
+  <compound refid="dir_77589e5f1b6cfa447568af3e50c031d9" kind="dir"><name>D:/Documents/University/coverity-sample-master/ComplexityTests/Properties</name>
+  </compound>
+  <compound refid="dir_8e8f835dbb702a479f68dc4f8b4b3eb8" kind="dir"><name>D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer</name>
+  </compound>
+  <compound refid="dir_2fe4613a57e17496bd9b8b9054d6682c" kind="dir"><name>D:/Documents/University</name>
+  </compound>
+</doxygenindex>

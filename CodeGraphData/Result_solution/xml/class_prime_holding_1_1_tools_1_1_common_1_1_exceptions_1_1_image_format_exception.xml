@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</compoundname>
+    <basecompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.GenericException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1af561de05c4ae6186253ae4430989ce52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.ImageFormatException.ImageFormatException</definition>
+        <argsstring>()</argsstring>
+        <name>ImageFormatException</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.ImageFormatException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" line="33" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a111380a0b760078b1001caffdbac8181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.ImageFormatException.ImageFormatException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ImageFormatException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.ImageFormatException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a3609733a98024e1459d4db3b6904542a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.ImageFormatException.ImageFormatException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>ImageFormatException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.ImageFormatException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The inner exception. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" line="60" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" bodystart="60" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>(Serializable) exception for signalling image format errors. This class cannot be inherited. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:PrimeHolding.Tools.Common.Exceptions.GenericException</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Exception</label>
+      </node>
+      <node id="74">
+        <label>PrimeHolding.Tools.Common.Exceptions.ImageFormatException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Exception</label>
+      </node>
+      <node id="77">
+        <label>PrimeHolding.Tools.Common.Exceptions.ImageFormatException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" line="25" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/ImageFormatException.cs" bodystart="24" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1af561de05c4ae6186253ae4430989ce52" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>ImageFormatException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a111380a0b760078b1001caffdbac8181" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>ImageFormatException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_image_format_exception_1a3609733a98024e1459d4db3b6904542a" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::ImageFormatException</scope><name>ImageFormatException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

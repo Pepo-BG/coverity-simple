@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="keep_aspect_8cs" kind="file">
+    <compoundname>keepAspect.cs</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" prot="public">PrimeHolding::Tools::Resizer::KeepAspect</innerclass>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_resizer">PrimeHolding::Tools::Resizer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">﻿</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;copyright<sp/>file=&quot;keepAspect.cs&quot;<sp/>company=&quot;SBND<sp/>jsc&quot;&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2017<sp/>-<sp/>2018<sp/>SBND<sp/>jsc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;/copyright&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;author&gt;Dimiter<sp/>&quot;Arruor&quot;<sp/>Nikov&lt;/author&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;date&gt;02.01.2018<sp/>г.&lt;/date&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;summary&gt;Implements<sp/>the<sp/>keep<sp/>aspect<sp/>class&lt;/summary&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PrimeHolding.Tools.Resizer</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>PrimeHolding.Tools.Common.Exceptions;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect" kindref="compound">KeepAspect</ref><sp/>:<sp/><ref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" kindref="compound">IResizeStrategy</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect_1a45d0f7a14bcc44ee8785dadc77aed863" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_keep_aspect_1a45d0f7a14bcc44ee8785dadc77aed863" kindref="member">ImageResize</ref>(Image<sp/>sourceImage,<sp/>String<sp/>destinationFile,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destHeight)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srcAspect<sp/>=<sp/>sourceImage.Width<sp/>/<sp/>sourceImage.Height;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>destAspect<sp/>=<sp/>destWidth<sp/>/<sp/>destHeight;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Math.Round(srcAspect,<sp/>2)<sp/>!=<sp/>Math.Round(destAspect,<sp/>2))</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_invalid_aspect_ratio_exception" kindref="compound">InvalidAspectRatioException</ref>(</highlight><highlight class="stringliteral">&quot;Source<sp/>and<sp/>destination<sp/>aspect<sp/>ratios<sp/>must<sp/>be<sp/>same!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bitmap<sp/>destinationImage<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Bitmap(sourceImage,<sp/>destWidth,<sp/>destHeight);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destinationImage.Save(destinationFile,<sp/>sourceImage.RawFormat);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destinationImage.Dispose();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/keepAspect.cs"/>
+  </compounddef>
+</doxygen>

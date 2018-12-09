@@ -1,0 +1,1221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Permissions::CheckPermissions</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6ef4d326aa6718f76904dade6502e1ce" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PrimeHolding.Tools.Common.Permissions.CheckPermissions.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+<para>Full pathname of the file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="22" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a833e8c7a676ad220cb3c371b25c91d3c" prot="private" static="no" mutable="no">
+        <type>WindowsIdentity</type>
+        <definition>WindowsIdentity PrimeHolding.Tools.Common.Permissions.CheckPermissions.principal</definition>
+        <argsstring></argsstring>
+        <name>principal</name>
+        <briefdescription>
+<para>The principal. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="25" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaf0c412ae376d6f28c77616b1536a933" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyAppendData</definition>
+        <argsstring></argsstring>
+        <name>denyAppendData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow append data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="28" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a933ebe3bb5fbf94cf86b740e5bec7938" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyChangePermissions</definition>
+        <argsstring></argsstring>
+        <name>denyChangePermissions</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow change permissions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="30" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a23b260b5e8eeb9eadddd5045883ab95f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyCreateDirectories</definition>
+        <argsstring></argsstring>
+        <name>denyCreateDirectories</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow create directories. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="32" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a31c70215b2829bdb7567e82f06a8bc37" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyCreateFiles</definition>
+        <argsstring></argsstring>
+        <name>denyCreateFiles</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow create files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="34" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5853be9e4f5b4bdd815a944d84825324" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyDelete</definition>
+        <argsstring></argsstring>
+        <name>denyDelete</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow delete. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="36" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab1485aa1c7bfa555397f82f842257779" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyDeleteSubdirectoriesAndFiles</definition>
+        <argsstring></argsstring>
+        <name>denyDeleteSubdirectoriesAndFiles</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow delete subdirectories and files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="38" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3a730e372b0f7337185b41087ddd553f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyExecuteFile</definition>
+        <argsstring></argsstring>
+        <name>denyExecuteFile</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow execute file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="40" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a30d1507c3a11ae05a763df52882fdd82" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyFullControl</definition>
+        <argsstring></argsstring>
+        <name>denyFullControl</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow full control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="42" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7fce8f248023e452a5b025876c6dbfa1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyListDirectory</definition>
+        <argsstring></argsstring>
+        <name>denyListDirectory</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow list directory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="44" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3fcd2ae92b6cf557d8a99776629fab9e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyModify</definition>
+        <argsstring></argsstring>
+        <name>denyModify</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow modify. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a98a9435379a3d4bdfa84853ff25076aa" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyRead</definition>
+        <argsstring></argsstring>
+        <name>denyRead</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="48" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a244ac9efe98f30920c3a1ee9217e43cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyReadAndExecute</definition>
+        <argsstring></argsstring>
+        <name>denyReadAndExecute</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read and execute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="50" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3be1495cc25e0e4379a4abce361a8ed8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyReadAttributes</definition>
+        <argsstring></argsstring>
+        <name>denyReadAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="52" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4999e1c0310873b7e406b2ef84d1794c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyReadData</definition>
+        <argsstring></argsstring>
+        <name>denyReadData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="54" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9bfd0100f5072732391f7bacd50d9826" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyReadExtendedAttributes</definition>
+        <argsstring></argsstring>
+        <name>denyReadExtendedAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="56" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a448598d9026b0a55cfdf489e9e0149f5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyReadPermissions</definition>
+        <argsstring></argsstring>
+        <name>denyReadPermissions</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow read permissions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="58" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab6c2c325ba2c56d15de152dceb9f8e4e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denySynchronize</definition>
+        <argsstring></argsstring>
+        <name>denySynchronize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow synchronize. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="60" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab541cdc35ff4ab4801916a030cd1030" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyTakeOwnership</definition>
+        <argsstring></argsstring>
+        <name>denyTakeOwnership</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow take ownership. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="62" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9d80d7c6050db3a4c3adcc3f04019c14" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyTraverse</definition>
+        <argsstring></argsstring>
+        <name>denyTraverse</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow traverse. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="64" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4fb5f0bc15801ffe08d42c66fadf4aff" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyWrite</definition>
+        <argsstring></argsstring>
+        <name>denyWrite</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow write. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="66" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad1d65f4549e4dabf0c1c012f4f9c2579" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyWriteAttributes</definition>
+        <argsstring></argsstring>
+        <name>denyWriteAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow write attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="68" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a109ea9bed7c9baecf3e8f358e60f7aa3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyWriteData</definition>
+        <argsstring></argsstring>
+        <name>denyWriteData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow write data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="70" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a13c2cb1f00fe03ac6f00cf705558225d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.denyWriteExtendedAttributes</definition>
+        <argsstring></argsstring>
+        <name>denyWriteExtendedAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to deny, false to allow write extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="72" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1adbaf2d085a6cb5bfe93dc8bf54b4bced" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowAppendData</definition>
+        <argsstring></argsstring>
+        <name>allowAppendData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny append data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="75" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3b120189d7fdce22c3b29ed94afbadd0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowChangePermissions</definition>
+        <argsstring></argsstring>
+        <name>allowChangePermissions</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny change permissions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="77" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abfdcf734ad67ccbcc7c48fb2785aa0ff" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowCreateDirectories</definition>
+        <argsstring></argsstring>
+        <name>allowCreateDirectories</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny create directories. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="79" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0e0444d007420d3b59d29fefb310f7b9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowCreateFiles</definition>
+        <argsstring></argsstring>
+        <name>allowCreateFiles</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny create files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="81" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7e44797c73731f48be3deef5bbe5c08a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowDelete</definition>
+        <argsstring></argsstring>
+        <name>allowDelete</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny delete. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="83" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a307d113fbaa77982d9ae6216b8066039" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowDeleteSubdirectoriesAndFiles</definition>
+        <argsstring></argsstring>
+        <name>allowDeleteSubdirectoriesAndFiles</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny delete subdirectories and files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="85" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a87306800a3fdf78d439dbb2048635f5a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowExecuteFile</definition>
+        <argsstring></argsstring>
+        <name>allowExecuteFile</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny execute file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="87" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab2bc2522acc3c5bc9dd1671c91848f75" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowFullControl</definition>
+        <argsstring></argsstring>
+        <name>allowFullControl</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny full control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="89" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abbbcc8198d94cc746bec362f956707c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowListDirectory</definition>
+        <argsstring></argsstring>
+        <name>allowListDirectory</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny list directory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="91" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a249944a11eb7e01b9c7979c94ae2778c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowModify</definition>
+        <argsstring></argsstring>
+        <name>allowModify</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny modify. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="93" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0741d5922d0954267a6edb56872e1c73" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowRead</definition>
+        <argsstring></argsstring>
+        <name>allowRead</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="95" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af710cd49f9db4a98c4024dd550db399e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowReadAndExecute</definition>
+        <argsstring></argsstring>
+        <name>allowReadAndExecute</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read and execute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="97" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a538962649e4b1b3e48a5ccd787194a3a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowReadAttributes</definition>
+        <argsstring></argsstring>
+        <name>allowReadAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="99" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0fe2ebf6ab12d5d47897eb7393d41eeb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowReadData</definition>
+        <argsstring></argsstring>
+        <name>allowReadData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="101" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7f031afb1f1f05a117cec3b3d0e62c00" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowReadExtendedAttributes</definition>
+        <argsstring></argsstring>
+        <name>allowReadExtendedAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="103" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7960eae0282043df4e09d70e49eae65d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowReadPermissions</definition>
+        <argsstring></argsstring>
+        <name>allowReadPermissions</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny read permissions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="105" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1549c5ed153ce6bdff18b37e036cd5e4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowSynchronize</definition>
+        <argsstring></argsstring>
+        <name>allowSynchronize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny synchronize. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="107" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ae237127e36c6ac4cdb451b32ff4d9a48" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowTakeOwnership</definition>
+        <argsstring></argsstring>
+        <name>allowTakeOwnership</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny take ownership. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="109" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a03b20761a01257c240b81c1a553c3039" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowTraverse</definition>
+        <argsstring></argsstring>
+        <name>allowTraverse</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny traverse. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="111" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a837ef1f58c6a21bec44de1ae45264a97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowWrite</definition>
+        <argsstring></argsstring>
+        <name>allowWrite</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny write. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="113" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a775a818e49fe5ad53f8ef671d415afdf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowWriteAttributes</definition>
+        <argsstring></argsstring>
+        <name>allowWriteAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny write attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="115" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a938a62c1f6883668d3e2037d6eca1d8d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowWriteData</definition>
+        <argsstring></argsstring>
+        <name>allowWriteData</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny write data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="117" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a48a53c3ebf1a5a0c5caad5e08fe9b5eb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.allowWriteExtendedAttributes</definition>
+        <argsstring></argsstring>
+        <name>allowWriteExtendedAttributes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>True to allow, false to deny write extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="119" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5e9f9600f42c5c44adc5bdd293b2c08b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanAppendData</definition>
+        <argsstring>()</argsstring>
+        <name>CanAppendData</name>
+        <briefdescription>
+<para>Determine if we can append data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can append data, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="127" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4cd10ffc3d43e7e2bf7eb3c3962a8021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanChangePermissions</definition>
+        <argsstring>()</argsstring>
+        <name>CanChangePermissions</name>
+        <briefdescription>
+<para>Determine if we can change permissions. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can change permissions, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="138" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5bb52e03c7772cc83da9d9648f356538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanCreateDirectories</definition>
+        <argsstring>()</argsstring>
+        <name>CanCreateDirectories</name>
+        <briefdescription>
+<para>Determine if we can create directories. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can create directories, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="149" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af22d451fcd637c27e5bb7d6440c73c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanCreateFiles</definition>
+        <argsstring>()</argsstring>
+        <name>CanCreateFiles</name>
+        <briefdescription>
+<para>Determine if we can create files. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can create files, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="160" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6d77406ed54b89a95fbeae1b16e7f3b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanDelete</definition>
+        <argsstring>()</argsstring>
+        <name>CanDelete</name>
+        <briefdescription>
+<para>Determine if we can delete. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can delete, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="171" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa83aeadcd520ac23e0b9583a05e09565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanDeleteSubdirectoriesAndFiles</definition>
+        <argsstring>()</argsstring>
+        <name>CanDeleteSubdirectoriesAndFiles</name>
+        <briefdescription>
+<para>Determine if we can delete subdirectories and files. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can delete subdirectories and files, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="182" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a06abadee2680a6236f00dc4147495ea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanExecuteFile</definition>
+        <argsstring>()</argsstring>
+        <name>CanExecuteFile</name>
+        <briefdescription>
+<para>Determine if we can execute file. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can execute file, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="193" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1fd017c05c1c333f684fb0b803138e06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanFullControl</definition>
+        <argsstring>()</argsstring>
+        <name>CanFullControl</name>
+        <briefdescription>
+<para>Determine if we can full control. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can full control, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="204" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a09045e10ce5ae70e3889473bddfa116f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanListDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>CanListDirectory</name>
+        <briefdescription>
+<para>Determine if we can list directory. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can list directory, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="215" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7c9870fd8333dffa614ec32cc05808a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanModify</definition>
+        <argsstring>()</argsstring>
+        <name>CanModify</name>
+        <briefdescription>
+<para>Determine if we can modify. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can modify, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="226" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a27f28b211c55c97538e49fc13cf1ea8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanRead</definition>
+        <argsstring>()</argsstring>
+        <name>CanRead</name>
+        <briefdescription>
+<para>Determine if we can read. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="237" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="237" bodyend="240"/>
+        <referencedby refid="class_prime_holding_1_1_tools_1_1_image_tools_1a297d0fd64585a97b7de82f19d728b8ed" compoundref="_image_tools_8cs" startline="38" endline="52">PrimeHolding.Tools.ImageTools.CheckSourceFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a83bc8783efd7cd36243339eea4a6bb0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanReadAndExecute</definition>
+        <argsstring>()</argsstring>
+        <name>CanReadAndExecute</name>
+        <briefdescription>
+<para>Determine if we can read and execute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read and execute, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="248" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab483a4d7df123a8e05569a2caba8fb39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanReadAttributes</definition>
+        <argsstring>()</argsstring>
+        <name>CanReadAttributes</name>
+        <briefdescription>
+<para>Determine if we can read attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read attributes, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="259" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="259" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a45c4f0a49ec6ecafa3723a352397c8da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanReadData</definition>
+        <argsstring>()</argsstring>
+        <name>CanReadData</name>
+        <briefdescription>
+<para>Determine if we can read data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read data, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="270" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad98dc07174a350c6fedcca135f2b0be4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanReadExtendedAttributes</definition>
+        <argsstring>()</argsstring>
+        <name>CanReadExtendedAttributes</name>
+        <briefdescription>
+<para>Determine if we can read extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read extended attributes, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="281" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab77341b40d7060a34fcae406205ccd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanReadPermissions</definition>
+        <argsstring>()</argsstring>
+        <name>CanReadPermissions</name>
+        <briefdescription>
+<para>Determine if we can read permissions. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can read permissions, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="292" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a654fe67d0f462ec1f8a9329a6da7ecc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanSynchronize</definition>
+        <argsstring>()</argsstring>
+        <name>CanSynchronize</name>
+        <briefdescription>
+<para>Determine if we can synchronize. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can synchronize, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="303" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa30d77871b5506a77e2f959a459aa24e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanTakeOwnership</definition>
+        <argsstring>()</argsstring>
+        <name>CanTakeOwnership</name>
+        <briefdescription>
+<para>Determine if we can take ownership. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can take ownership, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="314" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="314" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0f99629ff83d8e272764005235054306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanTraverse</definition>
+        <argsstring>()</argsstring>
+        <name>CanTraverse</name>
+        <briefdescription>
+<para>Determine if we can traverse. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can traverse, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="325" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="325" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a02e42f30b21a9fd3b44eb286416a0e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanWrite</definition>
+        <argsstring>()</argsstring>
+        <name>CanWrite</name>
+        <briefdescription>
+<para>Determine if we can write. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can write, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="336" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="336" bodyend="339"/>
+        <referencedby refid="class_prime_holding_1_1_tools_1_1_image_tools_1ab5772cf0333fd374857a95e52a395748" compoundref="_image_tools_8cs" startline="64" endline="79">PrimeHolding.Tools.ImageTools.CheckDestinationFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a2486ce73767b92088922c12b863b8e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanWriteAttributes</definition>
+        <argsstring>()</argsstring>
+        <name>CanWriteAttributes</name>
+        <briefdescription>
+<para>Determine if we can write attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can write attributes, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="347" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="347" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab02be236135adf2c59de49b72727fa79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanWriteData</definition>
+        <argsstring>()</argsstring>
+        <name>CanWriteData</name>
+        <briefdescription>
+<para>Determine if we can write data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can write data, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="358" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="358" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a63d2367e2561f1505b89b0aba499a2fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.CanWriteExtendedAttributes</definition>
+        <argsstring>()</argsstring>
+        <name>CanWriteExtendedAttributes</name>
+        <briefdescription>
+<para>Determine if we can write extended attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if we can write extended attributes, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="369" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="369" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afa4ad01c09b9f57d4f272c36114bf0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WindowsIdentity</type>
+        <definition>WindowsIdentity PrimeHolding.Tools.Common.Permissions.CheckPermissions.GetWindowsIdentity</definition>
+        <argsstring>()</argsstring>
+        <name>GetWindowsIdentity</name>
+        <briefdescription>
+<para>Gets windows identity. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The windows identity. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="380" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="380" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6fa3213c24b3073a9632024e7f59f3a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string PrimeHolding.Tools.Common.Permissions.CheckPermissions.GetPath</definition>
+        <argsstring>()</argsstring>
+        <name>GetPath</name>
+        <briefdescription>
+<para>Gets the path. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The path. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="391" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="391" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaa5483873902ee67182e1b30cec32634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Permissions.CheckPermissions.CheckPermissions</definition>
+        <argsstring>(string path)</argsstring>
+        <name>CheckPermissions</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions" kindref="compound">PrimeHolding.Tools.Common.Permissions.CheckPermissions</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full pathname of the file. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="405" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afb1b5c5c161a40031c41174b8a993b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Permissions.CheckPermissions.CheckPermissions</definition>
+        <argsstring>(string path, WindowsIdentity principal)</argsstring>
+        <name>CheckPermissions</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>WindowsIdentity</type>
+          <declname>principal</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions" kindref="compound">PrimeHolding.Tools.Common.Permissions.CheckPermissions</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when an exception error condition occurs. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full pathname of the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>principal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The principal. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="419" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="419" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a97dad686a482710b9c66a8da4c7daf3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeHolding.Tools.Common.Permissions.CheckPermissions.Contains</definition>
+        <argsstring>(FileSystemRights right, FileSystemAccessRule rule)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>FileSystemRights</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>FileSystemAccessRule</type>
+          <declname>rule</declname>
+        </param>
+        <briefdescription>
+<para>Query if this object contains the given right. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The right. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rule</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rule. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="return"><para>True if the object is in this collection, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="931" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="931" bodyend="934"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A check permissions. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" line="19" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Permissions/CheckPermissions.cs" bodystart="18" bodyend="935"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1adbaf2d085a6cb5bfe93dc8bf54b4bced" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowAppendData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3b120189d7fdce22c3b29ed94afbadd0" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowChangePermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abfdcf734ad67ccbcc7c48fb2785aa0ff" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowCreateDirectories</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0e0444d007420d3b59d29fefb310f7b9" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowCreateFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7e44797c73731f48be3deef5bbe5c08a" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowDelete</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a307d113fbaa77982d9ae6216b8066039" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowDeleteSubdirectoriesAndFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a87306800a3fdf78d439dbb2048635f5a" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowExecuteFile</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab2bc2522acc3c5bc9dd1671c91848f75" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowFullControl</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1abbbcc8198d94cc746bec362f956707c5" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowListDirectory</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a249944a11eb7e01b9c7979c94ae2778c" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowModify</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0741d5922d0954267a6edb56872e1c73" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowRead</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af710cd49f9db4a98c4024dd550db399e" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowReadAndExecute</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a538962649e4b1b3e48a5ccd787194a3a" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowReadAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0fe2ebf6ab12d5d47897eb7393d41eeb" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowReadData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7f031afb1f1f05a117cec3b3d0e62c00" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowReadExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7960eae0282043df4e09d70e49eae65d" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowReadPermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1549c5ed153ce6bdff18b37e036cd5e4" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowSynchronize</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ae237127e36c6ac4cdb451b32ff4d9a48" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowTakeOwnership</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a03b20761a01257c240b81c1a553c3039" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowTraverse</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a837ef1f58c6a21bec44de1ae45264a97" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowWrite</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a775a818e49fe5ad53f8ef671d415afdf" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowWriteAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a938a62c1f6883668d3e2037d6eca1d8d" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowWriteData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a48a53c3ebf1a5a0c5caad5e08fe9b5eb" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>allowWriteExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5e9f9600f42c5c44adc5bdd293b2c08b" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanAppendData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4cd10ffc3d43e7e2bf7eb3c3962a8021" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanChangePermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5bb52e03c7772cc83da9d9648f356538" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanCreateDirectories</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1af22d451fcd637c27e5bb7d6440c73c17" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanCreateFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6d77406ed54b89a95fbeae1b16e7f3b4" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanDelete</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa83aeadcd520ac23e0b9583a05e09565" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanDeleteSubdirectoriesAndFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a06abadee2680a6236f00dc4147495ea8" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanExecuteFile</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a1fd017c05c1c333f684fb0b803138e06" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanFullControl</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a09045e10ce5ae70e3889473bddfa116f" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanListDirectory</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7c9870fd8333dffa614ec32cc05808a6" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanModify</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a27f28b211c55c97538e49fc13cf1ea8f" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanRead</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a83bc8783efd7cd36243339eea4a6bb0a" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanReadAndExecute</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab483a4d7df123a8e05569a2caba8fb39" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanReadAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a45c4f0a49ec6ecafa3723a352397c8da" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanReadData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad98dc07174a350c6fedcca135f2b0be4" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanReadExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab77341b40d7060a34fcae406205ccd8" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanReadPermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a654fe67d0f462ec1f8a9329a6da7ecc2" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanSynchronize</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aa30d77871b5506a77e2f959a459aa24e" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanTakeOwnership</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a0f99629ff83d8e272764005235054306" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanTraverse</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a02e42f30b21a9fd3b44eb286416a0e40" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanWrite</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a2486ce73767b92088922c12b863b8e16" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanWriteAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab02be236135adf2c59de49b72727fa79" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanWriteData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a63d2367e2561f1505b89b0aba499a2fd" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CanWriteExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaa5483873902ee67182e1b30cec32634" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CheckPermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afb1b5c5c161a40031c41174b8a993b27" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>CheckPermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a97dad686a482710b9c66a8da4c7daf3c" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>Contains</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aaf0c412ae376d6f28c77616b1536a933" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyAppendData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a933ebe3bb5fbf94cf86b740e5bec7938" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyChangePermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a23b260b5e8eeb9eadddd5045883ab95f" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyCreateDirectories</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a31c70215b2829bdb7567e82f06a8bc37" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyCreateFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a5853be9e4f5b4bdd815a944d84825324" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyDelete</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab1485aa1c7bfa555397f82f842257779" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyDeleteSubdirectoriesAndFiles</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3a730e372b0f7337185b41087ddd553f" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyExecuteFile</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a30d1507c3a11ae05a763df52882fdd82" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyFullControl</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a7fce8f248023e452a5b025876c6dbfa1" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyListDirectory</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3fcd2ae92b6cf557d8a99776629fab9e" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyModify</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a98a9435379a3d4bdfa84853ff25076aa" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyRead</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a244ac9efe98f30920c3a1ee9217e43cc" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyReadAndExecute</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a3be1495cc25e0e4379a4abce361a8ed8" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyReadAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4999e1c0310873b7e406b2ef84d1794c" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyReadData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9bfd0100f5072732391f7bacd50d9826" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyReadExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a448598d9026b0a55cfdf489e9e0149f5" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyReadPermissions</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ab6c2c325ba2c56d15de152dceb9f8e4e" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denySynchronize</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1aab541cdc35ff4ab4801916a030cd1030" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyTakeOwnership</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a9d80d7c6050db3a4c3adcc3f04019c14" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyTraverse</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a4fb5f0bc15801ffe08d42c66fadf4aff" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyWrite</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1ad1d65f4549e4dabf0c1c012f4f9c2579" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyWriteAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a109ea9bed7c9baecf3e8f358e60f7aa3" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyWriteData</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a13c2cb1f00fe03ac6f00cf705558225d" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>denyWriteExtendedAttributes</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6fa3213c24b3073a9632024e7f59f3a5" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>GetPath</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1afa4ad01c09b9f57d4f272c36114bf0d5" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>GetWindowsIdentity</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a6ef4d326aa6718f76904dade6502e1ce" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>path</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_permissions_1_1_check_permissions_1a833e8c7a676ad220cb3c371b25c91d3c" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Permissions::CheckPermissions</scope><name>principal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

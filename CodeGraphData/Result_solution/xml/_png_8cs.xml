@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_png_8cs" kind="file">
+    <compoundname>Png.cs</compoundname>
+    <innerclass refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png" prot="public">PrimeHolding::Tools::Converter::Png</innerclass>
+    <innernamespace refid="namespace_prime_holding_1_1_tools_1_1_converter">PrimeHolding::Tools::Converter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">PrimeHolding.Tools.Converter</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png" kindref="compound">Png</ref><sp/>:<sp/><ref refid="interface_prime_holding_1_1_tools_1_1_converter_1_1_i_convert_strategy" kindref="compound">IConvertStrategy</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png_1abb68b5f06aa1264e44ddc41eaf08bf9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_prime_holding_1_1_tools_1_1_converter_1_1_png_1abb68b5f06aa1264e44ddc41eaf08bf9b" kindref="member">ImageConvert</ref>(Image<sp/>sourceImage,<sp/>String<sp/>destinationFile)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceImage.Save(destinationFile,<sp/>System.Drawing.Imaging.ImageFormat.Png);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Converter/Png.cs"/>
+  </compounddef>
+</doxygen>

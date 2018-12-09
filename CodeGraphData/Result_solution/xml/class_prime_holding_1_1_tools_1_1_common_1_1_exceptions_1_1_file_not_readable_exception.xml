@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</compoundname>
+    <basecompoundref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception" prot="public" virt="non-virtual">PrimeHolding.Tools.Common.Exceptions.GenericException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a50b870a86cc9f3b53f287f6c183282ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException.FileNotReadableException</definition>
+        <argsstring>()</argsstring>
+        <name>FileNotReadableException</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" line="33" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a85a4b31016edf6bdf99381ed1cde6e1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException.FileNotReadableException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>FileNotReadableException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a2bf73e0d634e1a23cdf499a317109613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException.FileNotReadableException</definition>
+        <argsstring>(string message, Exception innerException)</argsstring>
+        <name>FileNotReadableException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>innerException</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception" kindref="compound">PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>innerException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The inner exception. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" line="60" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" bodystart="60" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>(Serializable) exception for signalling file not readable errors. This class cannot be inherited. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>T:PrimeHolding.Tools.Common.Exceptions.GenericException</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>PrimeHolding.Tools.Common.Exceptions.FileNotReadableException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>GenericException</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" line="25" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Common/Exceptions/FileNotReadableException.cs" bodystart="24" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a50b870a86cc9f3b53f287f6c183282ae" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>FileNotReadableException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a85a4b31016edf6bdf99381ed1cde6e1a" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>FileNotReadableException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_file_not_readable_exception_1a2bf73e0d634e1a23cdf499a317109613" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>FileNotReadableException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a45687e29689c4c637ff7d2e9a4dc98be" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1ad47275c4a3bfdbe2746a7a302bcd6da0" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>GenericException</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_common_1_1_exceptions_1_1_generic_exception_1a9ceb72f1adc2e5342e5dbf30d5c59f14" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Common::Exceptions::FileNotReadableException</scope><name>GenericException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

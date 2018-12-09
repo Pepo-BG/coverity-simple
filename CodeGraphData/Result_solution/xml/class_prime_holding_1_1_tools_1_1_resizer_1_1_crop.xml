@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Resizer::Crop</compoundname>
+    <basecompoundref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" prot="public" virt="non-virtual">PrimeHolding.Tools.Resizer.IResizeStrategy</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aa3423db76717fc1da048303d8b6d7c8a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PrimeHolding.Tools.Resizer.Crop.startX</definition>
+        <argsstring></argsstring>
+        <name>startX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="19" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1a8dc3f0016077381e34d9b4a8e7cbba5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PrimeHolding.Tools.Resizer.Crop.startY</definition>
+        <argsstring></argsstring>
+        <name>startY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="20" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aede83a20441f4073b2a196b596c5e30f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimeHolding.Tools.Resizer.Crop.Crop</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Crop</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop" kindref="compound">PrimeHolding.Tools.Resizer.Crop</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x coordinate. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The y coordinate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="31" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1af7f4e46dae4b082edf3e9a8939155ada" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrimeHolding.Tools.Resizer.Crop.ImageResize</definition>
+        <argsstring>(Image sourceImage, string destinationFile, int destWidth, int destHeight)</argsstring>
+        <name>ImageResize</name>
+        <param>
+          <type>Image</type>
+          <declname>sourceImage</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destinationFile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destHeight</declname>
+        </param>
+        <briefdescription>
+<para>Image resize. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the destination. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the destination. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="46" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" bodystart="46" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A crop. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>PrimeHolding.Tools.Resizer.Crop</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>PrimeHolding.Tools.Resizer.Crop</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" line="18" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Crop.cs" bodystart="17" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aede83a20441f4073b2a196b596c5e30f" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::Crop</scope><name>Crop</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1af7f4e46dae4b082edf3e9a8939155ada" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::Crop</scope><name>ImageResize</name></member>
+      <member refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy_1ae06d3d0fc072db6897b9fe1647f4d9e9" prot="public" virt="non-virtual" ambiguityscope="PrimeHolding::Tools::Resizer::IResizeStrategy."><scope>PrimeHolding::Tools::Resizer::Crop</scope><name>ImageResize</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1aa3423db76717fc1da048303d8b6d7c8a" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::Crop</scope><name>startX</name></member>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_crop_1a8dc3f0016077381e34d9b4a8e7cbba5d" prot="private" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::Crop</scope><name>startY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

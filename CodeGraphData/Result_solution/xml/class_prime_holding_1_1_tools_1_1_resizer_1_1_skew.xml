@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew" kind="class" prot="public">
+    <compoundname>PrimeHolding::Tools::Resizer::Skew</compoundname>
+    <basecompoundref refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy" prot="public" virt="non-virtual">PrimeHolding.Tools.Resizer.IResizeStrategy</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew_1ad21abcd5dcbd4e3b325a46d8ea563e67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrimeHolding.Tools.Resizer.Skew.ImageResize</definition>
+        <argsstring>(Image sourceImage, String destinationFile, int destWidth, int destHeight)</argsstring>
+        <name>ImageResize</name>
+        <reimplements refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy_1ae06d3d0fc072db6897b9fe1647f4d9e9">ImageResize</reimplements>
+        <param>
+          <type>Image</type>
+          <declname>sourceImage</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>destinationFile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destHeight</declname>
+        </param>
+        <briefdescription>
+<para>Image resize. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the destination. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the destination. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="see"><para>M:PrimeHolding.Tools.Resizer.ResizerStrategy.ImageResize(Image,String,int,int)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Skew.cs" line="29" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Skew.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A skew. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="122">
+        <label>PrimeHolding.Tools.Resizer.Skew</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>PrimeHolding.Tools.Resizer.Skew</label>
+        <link refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>IResizeStrategy</label>
+        <link refid="interface_prime_holding_1_1_tools_1_1_resizer_1_1_i_resize_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Skew.cs" line="17" column="1" bodyfile="D:/Documents/University/coverity-sample-master/PrimeHolding.Tools/Resizer/Skew.cs" bodystart="16" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_prime_holding_1_1_tools_1_1_resizer_1_1_skew_1ad21abcd5dcbd4e3b325a46d8ea563e67" prot="public" virt="non-virtual"><scope>PrimeHolding::Tools::Resizer::Skew</scope><name>ImageResize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
